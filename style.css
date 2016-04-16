@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto Mono';
+    color: #00ff6e;
+    background:  #000000;
+}
+
+#container {
+    -webkit-transition: -webkit-transform 1.5s ease-in-out;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em 1.5em 1em 1em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+::selection {
+    background: #7d00ff;
+    text-shadow: none !important;
+}
+
+.input-line {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: stretch;
+    clear: both;
+}
+
+.input-line > div:nth-child(2) {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+
+.cursor {
+    color: #00ff63;
+    margin-right: 6px;
+}
+
+.command-line {
+    outline: none;
+    background-color: transparent;
+    margin: 0;
+    width: 100%;
+    font: inherit;
+    border: none;
+    color: inherit;
+}
+
+.help {
+    -webkit-column-width: 100px;
+    column-width: 100px;
+}
